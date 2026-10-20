@@ -123,62 +123,62 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   layer 2:
-  - {t: ▽, type: trans}
+  - ESCAPE
   - '!'
   - '@'
   - '#'
   - $
   - '%'
   - ^
-  - '&'
-  - '*'
-  - (
+  - KP DIVIDE
+  - KP ASTERISK
+  - KP SUBTRACT
   - )
+  - BACKSPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - UP ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - _
-  - +
+  - '7'
+  - '8'
+  - '9'
+  - KP PLUS
+  - \
+  - DELETE
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '|'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
   - {t: ▽, type: trans}
   - '{'
-  - '}'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ':'
-  - '"'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - <
-  - '>'
-  - '?'
+  - '4'
+  - '5'
+  - '6'
+  - ENTER
+  - ;
+  - ''''
+  - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - .
+  - /
+  - RIGHT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - SPACE
+  - '0'
   - {t: Defualt, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
