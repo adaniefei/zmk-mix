@@ -62,7 +62,7 @@ layers:
   - {t: SPACE, h: Buleth}
   - RCTRL
   layer 1:
-  - F12
+  - ESCAPE
   - F1
   - F2
   - F3
@@ -74,25 +74,27 @@ layers:
   - F9
   - F10
   - F11
+  - F11
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '-'
   - '='
+  - HOME
+  - PAGE UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - \
+  - F12
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
   - {t: ▽, type: trans}
   - '['
   - ']'
+  - END
+  - PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -102,9 +104,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PRINTSCREEN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
