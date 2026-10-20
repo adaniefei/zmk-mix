@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: mix}
 layers:
   Defualt:
-  - ESCAPE
+  - '`'
   - '1'
   - '2'
   - '3'
@@ -24,7 +24,7 @@ layers:
   - I
   - O
   - P
-  - \
+  - DELETE
   - CAPS
   - A
   - S
@@ -50,14 +50,14 @@ layers:
   - /
   - RSHFT
   - LCTRL
-  - MUTE
+  - LEFT GUI
   - LEFT ALT
-  - LGUI
   - layer 1
+  - Buleth
   - SPACE
-  - ENTER
-  - layer 2
-  - LEFT WIN
+  - SPACE
+  - '&mkp MB1'
+  - {t: layer 2, h: toggle}
   - RIGHT ALT
   - {t: SPACE, h: Buleth}
   - RCTRL
@@ -113,10 +113,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -178,8 +178,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {t: Defualt, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -236,13 +236,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
 - p: [0, 11, 54, 53]
