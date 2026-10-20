@@ -66,11 +66,11 @@
         LAYER2 {
             display-name = "layer 2";
             bindings = <
-&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT     &kp CARET        &kp AMPERSAND  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans  &trans           &trans       &trans    &trans      &kp UNDERSCORE  &kp PLUS         &trans         &trans         &trans                &trans                 &kp PIPE
-&trans  &trans           &trans       &trans    &trans      &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans         &trans         &trans                &kp COLON              &kp DOUBLE_QUOTES
-&trans  &trans           &trans       &trans    &trans      &trans          &trans           &trans         &kp LESS_THAN  &kp GREATER_THAN      &kp QUESTION           &trans
-&trans  &trans           &trans       &trans    &trans      &trans          &trans           &trans         &to 0          &trans                &trans                 &trans
+&kp ESCAPE      &kp EXCLAMATION  &kp AT_SIGN     &kp HASH         &kp DOLLAR  &kp PERCENT     &kp CARET     &kp KP_DIVIDE  &kp KP_ASTERISK  &kp KP_SUBTRACT  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
+&trans          &trans           &kp UP_ARROW    &trans           &trans      &kp UNDERSCORE  &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9     &kp KP_PLUS      &kp BACKSLASH          &kp DELETE
+&trans          &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans      &kp LEFT_BRACE  &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6     &kp ENTER        &kp SEMICOLON          &kp SINGLE_QUOTE
+&kp LEFT_SHIFT  &trans           &trans          &trans           &trans      &trans          &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3     &kp PERIOD       &kp SLASH              &kp RIGHT_SHIFT
+&trans          &trans           &trans          &trans           &trans      &trans          &kp SPACE     &kp NUMBER_0   &to 0            &trans           &trans                 &trans
             >;
 
             sensor-bindings =
